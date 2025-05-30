@@ -1,0 +1,12 @@
+version: "0.2"
+dictionaryDefinitions:
+    - name: fhunleth-cspell-dictionary
+      path: "https://raw.githubusercontent.com/fhunleth/fhunleth-cspell-dictionary/refs/heads/main/words.txt"
+      addWords: false
+dictionaries:
+    - fhunleth-cspell-dictionary
+
+ignorePaths:
+  - node_modules
+  - _build
+  - deps
